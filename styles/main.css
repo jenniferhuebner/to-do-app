@@ -1,0 +1,42 @@
+header {
+   background: url(../styles/header.jpg) center / cover;
+   height: 60vh;
+
+   text-align: center;
+ }
+ h1 {
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+  }
+
+label{
+  font-size: 16px;
+  color: white;
+}
+li {
+  font-size: 12px;
+  font-family: monospace;
+  color: black;
+
+
+}
+
+button{
+  border-style: dashed;
+  background-color: white;
+  color: orange;
+}
+ul {
+  list-style-type: none;
+  display:block;
+
+}
+
+
+@media screen and (max-width: 1024px) {
+  header.mdl-layout__header {
+    display: flex;
+    font-size: 12px;
+  }
+}
